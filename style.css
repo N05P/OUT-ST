@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Pp Mori", sans-serif;
+}
+body, html {
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+}
+#nav
+{
+    height:70px;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:50px 60px;
+    position: fixed;
+    z-index:99;
+    color:white;
+    mix-blend-mode: difference;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#nav>h4{
+    cursor: pointer;
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+#logo h4{
+    cursor: pointer;
+    font-size:1.5vw;
+    font-weight: 400;
+}
+#nav i{
+    margin-top:1vw;
+    font-size:2vw;
+    cursor: pointer;
+}
+#page1 {
+    min-height: 90vh;
+    width: 100vw;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:8vw;
+    color:white;
+}
+#front{
+    width:40%;
+}
+#front h1
+{
+    font-size:12vw;
+    line-height: 9vw;
+    text-transform: uppercase;
+    word-spacing: 20vw;
+    font-weight: 400;
+}
+#ab{
+    position: absolute;
+    left:4%;
+    width:30%;
+    top:72%;
+}
+#t1,#t3{
+    position: relative;
+    left:10%;
+}
+#t2{
+    position: relative;
+    left:-30%;
+}
+#page2 {
+    height: 100vh;
+    width: 100%;
+}
+#page2 video{
+    position: relative;
+    left:4%;
+    width:50%;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+#page3
+{
+    height:100vh;
+    width:100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+#content{
+    padding:6vw;
+}
+#content h3{
+    font-size:2.7vw;
+    font-family: "Pp mori";
+    font-weight: 300;
+    line-height: 3vw;
+}
+#content button{
+    background: none;
+    outline:none;
+    border:none;
+    font-size:1.4vw;
+}
+#content2{
+    height: 5%;
+    width:90%;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#content2 p{
+    font-size:1.4vw;
+    line-height: 1.6vw;
+    font-weight:600;
+    font-family: "Scto Grotesk A";
+}
+#content #button{
+    border:1px solid black;
+    border-radius:20px;
+    width:30%;
+    display:flex;
+    padding:10px 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top:1.563vw;
+}
+#button{
+    width: 100%;
+}
+#button i{
+    margin-left:6px;
+}
+#sv{
+    width:60%;
+    display:flex;
+}
+.content4{
+    width:100%;
+    height: 100%;
+    display:flex;
+    border-top:1px solid rgba(0, 0, 0, 0.19);
+    margin-bottom:2vw;
+}
+.content44{
+    margin-top:4vw;
+    width:100%;
+    display:flex;
+    gap:2vw;
+    transition:all ease 0.5s;
+    cursor: pointer;
+}
+.image{
+    width:60%;
+}
+.image img{
+    width:100%;
+    height: 36.063vw;
+    object-fit: cover;
+}
+.textcontent{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap:21.188vw;
+}
+.textcontent:nth-child(2){
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.textcontent:nth-child(4){
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.tt{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.tt h2{
+    font-size:5vw;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.text p{
+    word-spacing: 20000px;
+    line-height: 3vw;
+    font-size:1vw;
+    font-weight: 100;
+}
+.content44:hover h2{
+    border-bottom:1px solid black;
+}
+.numbering{
+    font-weight: 700;
+    font-size: 2vw;
+}
+#page4{
+    min-height:100vh;
+    width:100%;
+    padding:6vw;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+footer{
+    height: 100vh;
+    background-color: #161818;
+    color:white;
+    padding:4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#part1{
+    width:90%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:2vw;
+    height: 40%;
+}
+#text{
+    width:33%;
+}
+#text p{
+    font-size: 2vw;
+}
+#text button{
+    outline:none;
+    background: none;
+    border:1px solid rgb(255, 255, 255);
+    padding:1vw 3vw;
+    border-radius:20px;
+    margin-top:14px;
+    color:white;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+#menu p{
+    margin-bottom:2px;
+    cursor: pointer;
+}
+#menu p:hover{
+    text-decoration: underline;
+}
+#part2{
+    width:85%;
+    height: 50%;
+    display:flex;
+    justify-content: space-between;
+}
+#p1,#p2,#p3{
+    width:30%;
+    border-top:3px solid white;
+    padding:2vw;
+    display: flex;
+    flex-direction: column;
+}
+#p1 h1,#p2 h1,#p3 h1{
+    margin-bottom:20px;
+    margin-top:20px;
+    font-size:3vw;
+}
+#p1 p,#p2 p,#p3 p{
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size:1vw;
+}
+#p3 p:hover{
+    text-decoration: underline;
+    transition: all ease 0.5s;
+}
+#text button:hover{
+    background-color: white;
+    color:black;
+}
+#part3
+{
+    padding:2vw;
+    width:90%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#part3 p{
+    text-transform: uppercase;
+}
